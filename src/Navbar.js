@@ -17,10 +17,10 @@ const Navbar = () => {
               <a href="/Project2/Horror">Horror</a>
             </div>
           </div>
-          <a href="">Community</a>
-          <a href="">Contact Us</a>
-          <a href="">My Cart</a>
-          <a href="">Log In</a>
+          <a href="/Project2">Community</a>
+          <a href="/Project2">Contact Us</a>
+          <a href="/Project2">My Cart</a>
+          <a href="/Project2">Log In</a>
         </div>
     </nav>
   </div>
