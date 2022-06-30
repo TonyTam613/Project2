@@ -14,7 +14,7 @@ const Browse = () => {
                     margin: "0px"
                 }}>Browse Games</h1>
             </div>
-            <a href="/Project2/Project2/Details" style={{
+            <a href="/Project2/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
