@@ -17,7 +17,7 @@ const Details = () => {
                 }}>
                     <h1>game preview/images</h1>
                 </div>
-                <a href="/Purchase" style={{
+                <a href="/Project2/Purchase" style={{
                     textDecoration: "none",
                     color: "black"
                 }}>

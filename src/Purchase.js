@@ -28,7 +28,7 @@ const Purchase = () => {
             <div className="col-4" style={{
                 padding: "2vw"
             }}>
-                <a href="/Confirmation" style={{
+                <a href="/Project2/Confirmation" style={{
                     backgroundColor: "grey",
                     color: "white",
                     borderRadius: "15px",
