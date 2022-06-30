@@ -1,4 +1,6 @@
-
+import { Link } from "react-router-dom";
+import DropdownButton from "react-bootstrap/DropdownButton";
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const Browse = () => {
     return (
@@ -14,7 +16,12 @@ const Browse = () => {
                     margin: "0px"
                 }}>Browse Games</h1>
             </div>
-            <a href="/Project2/Details" style={{
+            <DropdownButton id="dropdown-basic-button" title="Dropdown button">
+                <Dropdown.Item href="">Action</Dropdown.Item>
+                <Dropdown.Item href="">Adventure</Dropdown.Item>
+                <Dropdown.Item href="">Horror</Dropdown.Item>
+            </DropdownButton>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -31,8 +38,8 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
-            <a href="/Project2/Details" style={{
+            </Link>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -49,8 +56,8 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
-            <a href="/Project2/Details" style={{
+            </Link>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -67,8 +74,8 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
-            <a href="/Project2/Details" style={{
+            </Link>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -85,8 +92,8 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
-            <a href="/Project2/Details" style={{
+            </Link>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -103,8 +110,8 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
-            <a href="/Project2/Details" style={{
+            </Link>
+            <Link to="/Details" style={{
                 textDecoration: "none"
             }}>
                 <div className="container row my-5 py-3" style={{
@@ -121,7 +128,7 @@ const Browse = () => {
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae velit enim animi debitis placeat repellat modi sit numquam magni unde, repudiandae fugiat inventore consequuntur nam minus odit odio culpa reprehenderit!</p>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
       
     );

@@ -21,19 +21,19 @@ function App() {
             <Route exact path="/Project2">
               <Home />
             </Route>
-            <Route path="/Project2/Action">
+            <Route exact path="/Action">
               <Action />
             </Route>
-            <Route path="/Project2/Browse">
+            <Route path="/Browse">
               <Browse />
             </Route>
-            <Route path="/Project2/Details">
+            <Route path="/Details">
               <Details />
             </Route>
-            <Route path="/Project2/Purchase">
+            <Route path="/Purchase">
               <Purchase />
             </Route>
-            <Route path="/Project2/Confirmation">
+            <Route path="/Confirmation">
               <Confirmation />
             </Route>
           </Switch>

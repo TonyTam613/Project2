@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const Details = () => {
     return (
@@ -17,7 +17,7 @@ const Details = () => {
                 }}>
                     <h1>game preview/images</h1>
                 </div>
-                <a href="/Project2/Purchase" style={{
+                <Link to="/Purchase" style={{
                     textDecoration: "none",
                     color: "black"
                 }}>
@@ -29,7 +29,7 @@ const Details = () => {
                     }}>
                         <h1>game specifications and description. Add to cart button will also be here, click here to purchase</h1>
                     </div>
-                </a>
+                </Link>
             </div>
             <div className="col-4" style={{
                 backgroundColor: "grey",

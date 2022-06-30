@@ -6,21 +6,21 @@ const Navbar = () => {
       backgroundColor: "#435058"
     }}>
       <nav className="navbar">
-        <a href="/Project2"><h1>Engine Games</h1></a>
+        <Link to="/Project2"><h1>Engine Games</h1></Link>
         <div className="links">
           <div className="dropdown">
             <a className="dropbtn">Store</a>
             <div className="dropdown-content">
-              <a href="/Project2/Browse">Browse</a>
-              <a href="/Project2/Action">Action</a>
-              <a href="/Project2/Adventure">Adventure</a>
-              <a href="/Project2/Horror">Horror</a>
+              <Link to="/Browse">Browse</Link>
+              <Link to="/Action">Action</Link>
+              <Link to="/Adventure">Adventure</Link>
+              <Link to="/Horror">Horror</Link>
             </div>
           </div>
-          <a href="/Project2">Community</a>
-          <a href="/Project2">Contact Us</a>
-          <a href="/Project2">My Cart</a>
-          <a href="/Project2">Log In</a>
+          <Link to="/Project2">Community</Link>
+          <Link to="/Project2">Contact Us</Link>
+          <Link to="/Project2">My Cart</Link>
+          <Link to="/Project2">Log In</Link>
         </div>
     </nav>
   </div>

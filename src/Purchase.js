@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 const Purchase = () => {
@@ -28,13 +28,13 @@ const Purchase = () => {
             <div className="col-4" style={{
                 padding: "2vw"
             }}>
-                <a href="/Project2/Confirmation" style={{
+                <Link to="/Confirmation" style={{
                     backgroundColor: "grey",
                     color: "white",
                     borderRadius: "15px",
                     textDecoration: "none",
                     padding: "2vw"
-                }}>confirm</a>
+                }}>confirm</Link>
             </div>
         </div>
       </div>

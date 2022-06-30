@@ -1,7 +1,7 @@
 {
   "name": "project2-website",
   "version": "0.1.0",
-  "homepage": "https://TonyTam613.github.io/Project2",
+  "homepage": "https://tonytam613.github.io/Project2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
