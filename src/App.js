@@ -18,22 +18,22 @@ function App() {
         <Navbar/>
         <div className="content">
           <Switch>
-            <Route exact path="/">
+            <Route exact path="/Project2">
               <Home />
             </Route>
-            <Route exact path="/Action">
+            <Route exact path="/Project2/Action">
               <Action />
             </Route>
-            <Route path="/Browse">
+            <Route path="/Project2/Browse">
               <Browse />
             </Route>
-            <Route path="/Details">
+            <Route path="/Project2/Details">
               <Details />
             </Route>
-            <Route path="/Purchase">
+            <Route path="/Project2/Purchase">
               <Purchase />
             </Route>
-            <Route path="/Confirmation">
+            <Route path="/Project2/Confirmation">
               <Confirmation />
             </Route>
           </Switch>
