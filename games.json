@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Super Mario Galaxy 2",
+        "genre": "adventure",
+        "description": "Gucci game for gucci people",
+        "publisher": "Nintendo",
+        "developer": "Nintendo EAD Tokyo",
+        "price": "0",
+        "id": 0
+    },
+    {
+        "title": "Apex Legends",
+        "genre": "action",
+        "description": "The best game ever",
+        "publisher": "Electronic Arts",
+        "developer": "Respawn Entertainment",
+        "price": "0",
+        "id": 1
+    },
+    {
+        "title": "Hollow Knight",
+        "genre": "adventure",
+        "description": "a fuckers game",
+        "publisher": "Team Cherry",
+        "developer": "Team Cherry",
+        "price": "16.99",
+        "id": 2
+    },
+    {
+        "title": "Valorant",
+        "genre": "action",
+        "description": "The league enjoyer's CS:GO",
+        "publisher": "Riot Games",
+        "developer": "Riot Games",
+        "price": "0",
+        "id": 3
+    },
+    {
+        "title": "Outlast",
+        "genre": "horror",
+        "description": "oo scary game",
+        "publisher": "Red Barrels",
+        "developer": "Red Barrels",
+        "price": "22.79",
+        "id": 4
+    }
+]
