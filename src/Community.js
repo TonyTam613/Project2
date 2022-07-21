@@ -17,7 +17,7 @@ const Community = () => {
             
                     }}>
                         <div className="container col-12 pe-3" aria-label={`Blog ${blog.id} content`}>
-                            <h5 aria-label="blog header" className="my-4"> <b>{ `${blog.title}` }</b> <br/><br/> {` By: ${blog.author}`}</h5>
+                            <h5 aria-label="blog header" className="my-4"> <strong>{ `${blog.title}` }</strong> <br/><br/> {` By: ${blog.author}`}</h5>
                             <p aria-label="blog content">{ blog.content }</p>
                         </div>
                     </div>
