@@ -27,7 +27,7 @@ const Browse = (props) => {
                     padding: "0px",
                     margin: "0px",
                     width: "auto"
-                }}>Browse Games</h1>
+                }}>Browse Games - {genre}</h1>
                 <DropdownButton aria-label="dropdown button" id="dropdown-basic-button" title="Sort By Genres" style={{
                     width: "auto",
                     marginLeft: "auto"
