@@ -1,26 +1,29 @@
+import { useContext } from "react";
 import { Link } from "react-router-dom";
+import { UserContext } from "./context/userContext";
 
 const Navbar = () => {
+  const {name, setName} = useContext(UserContext);
   return (
     <div className="containter-fluid" style={{
       backgroundColor: "#435058"
     }}>
-      <nav className="navbar">
-        <Link to="/Project2"><h1>Engine Games</h1></Link>
+      <nav aria-label="navigation bar" className="navbar">
+        <Link aria-label="home link" to="/Project2"><h1>Engine Games</h1></Link>
         <div className="links">
-          <div className="dropdown">
+          <div aria-label="dropdown" className="dropdown">
             <a className="dropbtn">Store</a>
             <div className="dropdown-content">
-              <Link to="/Browse">Browse</Link>
-              <Link to="/Action">Action</Link>
-              <Link to="/Adventure">Adventure</Link>
-              <Link to="/Horror">Horror</Link>
+              <Link aria-label="option 1" to="/Browse/all">Browse</Link>
+              <Link aria-label="option 2" to="/Browse/action">Action</Link>
+              <Link aria-label="option 3" to="/Browse/adventure">Adventure</Link>
+              <Link aria-label="option 4" to="/Browse/horror">Horror</Link>
             </div>
           </div>
-          <Link to="/Project2">Community</Link>
-          <Link to="/Project2">Contact Us</Link>
-          <Link to="/Project2">My Cart</Link>
-          <Link to="/Project2">Log In</Link>
+          <Link aria-label="community link" to="/Community">Community</Link>
+          <Link aria-label="contact link" to="/Contact">Contact Us</Link>
+          <Link aria-label="purchase page link" to="/Purchase">View Cart</Link>
+          {name === "" ? <Link aria-label="log in link" to="/LogIn">Log In</Link> : <Link aria-label="username display">{name}</Link>}
         </div>
     </nav>
   </div>

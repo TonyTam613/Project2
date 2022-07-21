@@ -8,7 +8,7 @@ const Footer = () => {
             color: "white",
             marginTop: "4vw",
         }}>
-            <p style={{margin: "0px"}}>© 1600, VeryRealCompanyInc.</p>
+            <p aria-label="footer text" style={{margin: "0px"}}>© 1600, VeryRealCompanyInc.</p>
         </div>
       </div>
     );
